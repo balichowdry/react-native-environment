@@ -24,6 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import Config from 'react-native-config';
+
 const App: () => React$Node = () => {
   return (
     <>
@@ -35,7 +37,7 @@ const App: () => React$Node = () => {
           <Header />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
+              <Text style={styles.footer}>Config.version</Text>
             </View>
           )}
           <View style={styles.body}>
