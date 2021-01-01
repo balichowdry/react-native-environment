@@ -6,11 +6,11 @@ Please follow the Commands below
 yarn 
 
 
-Then please RUN
+Then please RUN <br />
 yarn start
 
-Then for salesbuild
+Then for salesbuild <br />
 yarn salesbuild
 
-Then for Marketing Build
+Then for Marketing Build <br />
 yarn marketingbuild 
